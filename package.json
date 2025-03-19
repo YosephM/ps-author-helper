@@ -1,0 +1,27 @@
+{
+    "name": "ps-author-helper",
+    "version": "1.0.0",
+    "description": "Pluralsight author helper",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+        "lint": "tslint -p tsconfig.json"
+    },
+    "keywords": [
+        "pluralsight",
+        "greeting"
+    ],
+    "author": "Yoseph M.",
+    "license": "ISC",
+    "files": [
+        "dist/**/**"
+    ],
+    "devDependencies": {
+        "prettier": "^3.5.3",
+        "tslint": "^5.20.1",
+        "tslint-config-prettier": "^1.18.0",
+        "typescript": "^5.8.2"
+    }
+}
